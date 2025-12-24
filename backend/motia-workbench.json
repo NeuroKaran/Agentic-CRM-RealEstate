@@ -1,0 +1,155 @@
+[
+  {
+    "id": "basic-tutorial",
+    "config": {
+      "steps/petstore/state-audit-cron.step.ts": {
+        "x": -165,
+        "y": 217,
+        "sourceHandlePosition": "right"
+      },
+      "steps/petstore/process-food-order.step.ts": {
+        "x": 211,
+        "y": 17,
+        "sourceHandlePosition": "bottom",
+        "targetHandlePosition": "left"
+      },
+      "steps/petstore/api.step.ts": {
+        "x": -100,
+        "y": 3,
+        "sourceHandlePosition": "right",
+        "targetHandlePosition": "left"
+      },
+      "steps/petstore/notification.step.ts": {
+        "x": 300,
+        "y": 264
+      }
+    }
+  },
+  {
+    "id": "crm",
+    "config": {
+      "steps\\05-analytics.step.ts": {
+        "x": 9,
+        "y": 0
+      },
+      "steps\\04-crm-agents.step.ts": {
+        "x": 0,
+        "y": 151
+      }
+    }
+  },
+  {
+    "id": "properties",
+    "config": {
+      "steps\\05-analytics.step.ts": {
+        "x": 21,
+        "y": 755
+      },
+      "steps\\04-crm-agents.step.ts": {
+        "x": 13,
+        "y": 151
+      },
+      "steps\\03-cart.step.ts": {
+        "x": 38,
+        "y": 302
+      },
+      "steps\\02-properties.step.ts": {
+        "x": 17,
+        "y": 453
+      },
+      "steps\\02-properties-create.step.ts": {
+        "x": 13,
+        "y": 604
+      },
+      "steps\\01-auth.step.ts": {
+        "x": 0,
+        "y": 755
+      }
+    }
+  },
+  {
+    "id": "CRM",
+    "config": {
+      "steps\\09-leads-list.step.ts": {
+        "x": 80,
+        "y": 0
+      },
+      "steps\\09-lead-assign.step.ts": {
+        "x": 30,
+        "y": 151
+      },
+      "steps\\07-transactions-list.step.ts": {
+        "x": 51,
+        "y": 302
+      },
+      "steps\\07-subscriptions-list.step.ts": {
+        "x": 47,
+        "y": 453
+      },
+      "steps\\07-ai-agents-terminate.step.ts": {
+        "x": 0,
+        "y": 604
+      },
+      "steps\\07-ai-agents-hire.step.ts": {
+        "x": 38,
+        "y": 755
+      },
+      "steps\\06-ai-agents.step.ts": {
+        "x": 63,
+        "y": 906
+      },
+      "steps\\06-ai-agents-update.step.ts": {
+        "x": 47,
+        "y": 1057
+      },
+      "steps\\06-ai-agents-delete.step.ts": {
+        "x": 34,
+        "y": 1208
+      },
+      "steps\\06-ai-agents-create.step.ts": {
+        "x": 59,
+        "y": 1359
+      },
+      "steps\\05-analytics.step.ts": {
+        "x": 63,
+        "y": 1510
+      },
+      "steps\\04-crm-agents.step.ts": {
+        "x": 55,
+        "y": 1661
+      },
+      "steps\\03-cart.step.ts": {
+        "x": 80,
+        "y": 1812
+      },
+      "steps\\02-properties.step.ts": {
+        "x": 59,
+        "y": 1963
+      },
+      "steps\\02-properties-get.step.ts": {
+        "x": 42,
+        "y": 2114
+      },
+      "steps\\02-properties-create.step.ts": {
+        "x": 55,
+        "y": 2265
+      },
+      "steps\\01-auth.step.ts": {
+        "x": 42,
+        "y": 2416
+      },
+      "steps\\01-auth-login.step.ts": {
+        "x": 55,
+        "y": 2567
+      },
+      "steps\\03-cart-get.step.ts": {
+        "x": 84,
+        "y": 2718
+      },
+      "steps\\03-cart-delete.step.ts": {
+        "x": 55,
+        "y": 2869
+      }
+    }
+  }
+]

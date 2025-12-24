@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matte-black: #121212;
+  --color-beige: #F5F5F0;
+  --color-beige-dark: #D4D4C4;
+  --color-accent-gold: #C5A059;
+  --color-glass: rgba(255, 255, 255, 0.05);
+
+  --font-outfit: var(--font-outfit);
+}
+
+@layer base {
+  :root {
+    --background: #F5F5F0;
+    --foreground: #121212;
+  }
+
+  [data-theme="dark"] {
+    --background: #121212;
+    --foreground: #F5F5F0;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    @apply transition-colors duration-500 ease-in-out;
+  }
+}
+
+@layer utilities {
+  .glass {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
